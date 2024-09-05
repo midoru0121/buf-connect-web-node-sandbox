@@ -1,0 +1,27 @@
+{
+  "name": "@repo/connect_gen",
+  "type": "module",
+  "scripts": {
+    "dev": "",
+    "build": "buf generate"
+  },  
+  "private": true,
+  "version": "0.0.0",
+  "exports": {
+      "./eliza": "./gen/buf/connect/demo/eliza/v1/eliza_connect.ts"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^1.10.0",
+    "@connectrpc/connect": "^1.4.0",
+    "@connectrpc/connect-web": "^1.4.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@bufbuild/buf": "^1.39.0",
+    "@bufbuild/protoc-gen-es": "^1.10.0",
+    "@connectrpc/protoc-gen-connect-es": "^1.4.0",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1"
+  }
+}
