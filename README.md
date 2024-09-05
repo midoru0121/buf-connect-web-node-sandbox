@@ -1,4 +1,4 @@
-# Turborepo starter
+# Buf Connect Web & Connect Node Sandbox
 
 
 Buf to generate code for the server and code for the client.
